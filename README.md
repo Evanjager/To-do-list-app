@@ -8,4 +8,4 @@ Created a To-do list app that has these main functionalities.
 
 ## Final Product
 <p align="center">
-    <img src="/images/display.png" width="85%" height="85%"> 
+    <img src="/images/display.png" width="100%" height="100%"> 
