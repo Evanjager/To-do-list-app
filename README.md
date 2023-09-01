@@ -6,6 +6,6 @@ Created a To-do list app that has these main functionalities.
 3. User should be able to delete tasks.
 4. If the page is reloaded tasks added and completed should still display.
 
-##Final Product
+## Final Product
 <p align="center">
     <img src="/images/display.png" width="60%" height="60%"> 
