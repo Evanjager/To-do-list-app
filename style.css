@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: Comic Sans MS, Comic Sans, cursive;
     box-sizing: border-box;
 }
 .container{
@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    
     
 }
 .todo-list img{
@@ -38,7 +38,6 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
     /* font-family: Gill Sans, sans-serif; */
 }
 input{
@@ -57,4 +56,31 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(images/checked.png);
 }
