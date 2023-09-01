@@ -46,6 +46,7 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+    font-size: 16px;
 }
 button{
     border: none;
@@ -83,4 +84,19 @@ ul li.checked{
 }
 ul li.checked::before{
     background-image: url(images/checked.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
 }
